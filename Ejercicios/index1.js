@@ -1,11 +1,26 @@
-const fs = require('fs');
+     
+const fs = require('fs')
+const path = require('path')
+const express = require('express')
+const app = express()
+app.use(express.static('cliente'))
 
-fs.readdir("./carpeta",(error, files) => {
-    if(error){
-        throw error
-    }
-    console.log("finalizando lectura");
-    console.log(files);
+app.listen(3000, () => {
+    console.log("Escuchando en: http://localhost:3000")
 });
-console.log("inicializando lectura");
-      
+
+app.get('/', (request, response) => {
+    response.sendFile(path.resolve(__dirname, 'index.html'))
+})
+
+app.get('/mostrar', (request, response) => {
+    fs.readdir("./carpeta",(error, files) => {
+        if(error){
+            throw error
+        }
+        console.log(files)
+        response.json({
+            text: files
+        })
+    });
+})
