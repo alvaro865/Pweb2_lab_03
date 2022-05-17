@@ -62,15 +62,28 @@
 
 - Intento del  problema del poema
 
+  - Aqui para devolver el texto del poema llame a otra funcion para que se pueda cambiar con el parrafo dentro del body
+  - ![Ejercicio 1](imagenes/poema1.png)
+  
+  - Cuando le doy click al boton aparece indefened por lo que no muestra el texto del poema
+  - ![Ejercicio 1](imagenes/poema2.png)
+  
+  - Pero si aparece en la url de /recitar pero solo en formato de texto con el cambio que se hizo, y mande una console.log
+    para poder observar si estaba llegando el texto correctamente y como se puede observar en la segunda imagen asi fue.
+  - ![Ejercicio 1](imagenes/poema3.png)
+  - ![Ejercicio 1](imagenes/poema4.png)
+  
 - Solucion del Ejercicio 1 :
   https://github.com/alvaro865/Pweb2_lab_03
-  - Ejercicio 1
+  - Cuando llamamos a la pagina donde deberia de mostrar los nombres de los archivos otra ves nos manda undefined por lo que 
+    aun no se que puede estar fallando adjunto imagenes del codigo.
+  - ![Ejercicio 1](imagenes/ejercicio1_1.png)
+  - ![Ejercicio 1](imagenes/ejercicio1_2.png)
   
-  - ![Ejercicio 1](imagenes/poema1.png)
-  - Aqui para devolver el texto del poema llame a otra funcion para que se pueda cambiar con el parrafo dentro del body
+  - Pero verificamos si esta enviando bien la informacion y asi es pues en la consola observamos los nombres de los archivos
+    de la carpeta especificada.
+  - ![Ejercicio 1](imagenes/ejercicio1_3.png)
   
-  
-
 ## II. SOLUCION DEL CUESTIONARIO
 
  - En el Ejemplo "Hola Mundo" con NodeJS. ¿Qué pasó con la línea: "Content type ….."?
