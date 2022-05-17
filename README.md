@@ -66,7 +66,8 @@
   https://github.com/alvaro865/Pweb2_lab_03
   - Ejercicio 1
   
-  - ![Ejercicio 1](ejercicio01.png)
+  - ![Ejercicio 1](imagenes/poema1.png)
+  - Aqui para devolver el texto del poema llame a otra funcion para que se pueda cambiar con el parrafo dentro del body
   
   
 
